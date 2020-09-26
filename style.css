@@ -1,0 +1,246 @@
+		/*home page*/
+		ul{
+			list-style-type: none;
+			display: inline-block;
+			color: black;
+			overflow: hidden;
+		}
+		.link {
+			float: right;
+		}
+		
+
+		li{
+			float: left;
+			padding: 5px 20px;
+			cursor: pointer;
+		}
+		.navbar{
+			height: 55px;
+			width: 100%;
+			background-color: #0c2933;
+			display: inline-block;
+			position: fixed;
+			
+		}
+		body{
+			margin: 0;
+		}
+		a{
+			color: white;
+		}
+		#color{
+			color: white;
+			font-size: 20px;
+			padding-left: 0px;
+			padding-top: 0px;
+			margin-left: -30px;
+		}
+		.landing-page1{
+
+			background-image: url(./Assets/image-1.jpg);
+			text-align: center;
+			height: 50vh;
+			padding-bottom: auto;
+			padding-top: auto;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center top -10px;
+		}
+		
+		h1 {
+			text-align: center;
+			color: #5c333b;
+		}
+		.desc {
+			text-align: center;
+			width: 850px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.hr {
+			border-top: 2px solid black;
+			border-bottom: 2px solid black;
+			margin-left: 40.5%;
+			margin-right: 40.5%;
+		}
+
+		.landing-page2{
+
+			background-image: url(./Assets/image-2.jpg);
+			text-align: center;
+			height: 50vh;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+		.landing-page2:hover {
+			opacity: 0.5;
+		}
+		.springflower {
+			display: inline-block;
+			width: 100%;
+		}
+		.part1 {
+			width: 35%;
+			margin-left: 7%;
+			display: inline-block;
+		}
+		.part2 {
+			width: 35%;
+			margin-left: 15%;
+			display: inline-block;
+		}
+		
+		.title {
+			color: #5c333b;
+			text-align: center;
+			font-size: 30px;
+		}
+		.paragraph {
+			text-align: center;
+			width: 420px;
+		}
+		.paragraph2 {
+			text-align: center;
+			width: 425px;
+		}
+		
+		.images {
+			height: 80%;
+		    width: 80%;
+		    display: block;
+		    margin-left: auto;
+		    margin-right: auto;
+		}
+		.images:hover {
+			transform: scale(1.1);
+		}
+		.footer {
+			bottom: 0;
+			width: 100%;
+			background-color: #0c2933;
+			color: white;
+			text-align: center;
+			height: 55px;
+		}
+		.contact {
+			text-align: center;
+		}
+		.imgFooter {
+			height: 30px;
+			width: 30px;
+			padding-top: 2px;
+		}
+		.text {
+			color: white;
+		}
+		.btnHome {
+			margin-right: 5px;
+			background-color: #0c2933;
+			color: white;
+			border:0px;
+		}
+		.btnRegister {
+			margin-right: 20px;
+			background-color: #0c2933;
+			color: white;
+			border:0px;
+		}
+
+
+		/*Register Page*/
+		.form { 
+			width:470px; 
+			margin: auto; 
+			/*margin-top: 10px;	*/
+			padding-left:50px; 
+			padding-top:10px;
+			border : 1px solid transparent;
+			border-radius: 30px;	
+			height: 430px;
+		}
+
+		.position {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		.form input[type="email"] {
+			width: 400px; 
+			height: 30px;
+			font-size: 15px;
+		}
+		.form textarea { 
+			width: 400px;
+			resize: none; 
+			height: 30px;
+			font-size: 15px;
+		}
+		.form select {
+			width: 400px;
+			height: 30px;
+			font-size: 15px;
+		}
+		.footerRegis {
+			/*position: fixed;*/
+			left: 0;
+			height: 60px;
+			bottom: 0;
+			width: 100%;
+			background-color: #0c2933;
+			text-align: center;
+		}
+
+
+		.btnSubmit {
+			margin-left: 120px;
+			background-color: #0c2933;
+			border : 0;
+			color: white;
+			border-radius: 25px;
+			width: 180px;
+			height: 40px;
+  			line-height: 1.5;
+  			cursor: pointer;
+  			font-family: Franklin Gothic;
+  			font-size: 15px;
+		}
+
+		.contact {
+			font-family: Franklin Gothic Medium;
+			margin-bottom: 10px;
+		}
+
+		.gender{
+			text-align: center;
+			font-family: Franklin Gothic;
+		}
+		.text-muted {
+  			color: #6c757d;
+  			font-family: Franklin Gothic;
+		}
+		
+		.bg {
+			background-image: linear-gradient(to top right, #cc5bd0, #46a0ce);
+		}
+		form .form{
+			background-image: linear-gradient(to bottom right, #7af1a4, #d4c876);
+		}
+
+		.register-title {
+			font-family: MV Boli;
+			font-weight: 900;
+			font-size: 25px;
+			text-align: center;
+			border-top: 1px dashed lightblue;
+			border-left: 1px dashed lightblue;
+			border-right: 1px dashed lightblue;
+			margin-left: 40%;
+			margin-right: 40%;
+			/*text-decoration: underline;*/
+			margin-top: 70px;
+			color: lightblue;
+		}
+
+
